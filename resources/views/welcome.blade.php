@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+			Fragile                    
                 </div>
 
                 <div class="links">
