@@ -17,4 +17,11 @@ class ExampleTest extends TestCase
     {
         $this->assertTrue(true);
     }
+
+    public function testBasicExample()
+    {
+      $response = $this->call('GET', '/');
+    	$view = $response->original;
+    	$this->assertEquals('Vous y êtes !', $view['message']);
+    }
 }
