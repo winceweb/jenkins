@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    HOUHOUHOUHOU {{ $message }}
+                    Stephane {{ $message }}
                 </div>
 
                 <div class="links">
