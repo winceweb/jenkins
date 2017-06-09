@@ -27,6 +27,7 @@ return [
         'deploy'  => [
 		'composer install',
 		'cp .env.example .env',
+		'php artisan cache:clear'
 	],
         'cleanup' => [],
     ],
